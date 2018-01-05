@@ -1,6 +1,7 @@
 
 var g="https://qr.alipay.com/c1x06297uwd5jdqrw6sal05"
-
+// var c="https://qr.alipay.com/c1x06297uwd5jdqrw6sal05"
+var c = g
 
 
 function is_weixin(){
@@ -69,7 +70,7 @@ if(is_weixin()){
 	}
 }else{
 	if(g!=""){
-		location.href="https://qr.alipay.com/c1x06297uwd5jdqrw6sal05"
+		location.href= g
 	}else{
 		window.close()
 	}
